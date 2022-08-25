@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../static/css/form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    
+    </head>
+    <body>
+        <div class="main">
+
+            <form action="" onsubmit="">
+                <header>Login Form</header>
+
+                <div class="social">
+                    <div>
+                        <a href="" style="background-color: #0e90f2;"><i class="fa fa-facebook-f"></i> Facebook</a>
+                        
+                    </div>
+                    <div>
+                        <a href="" style="background-color: #00acee;"><i class="fa fa-twitter"></i> Twitter</a>
+                    </div>
+                </div>
+                <div class="inp">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Email or Phone" oninput="changeEmail(this)">
+                </div>
+                <div class="inp">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Password" oninput="changePassword(this)">
+                </div>
+                <div class="check">
+                    <div>
+                        <label for="re">
+                            <input type="checkbox" id="re">
+                            Remember me?
+                        </label>
+                    </div>
+
+                    <div class="pw">
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                </div>
+                <div class="login">
+                    <button type="submit" onsubmit="test()">Login</button>
+                </div>
+                <div class="sign">
+                Not a member? <a href="">Signup now</a>
+                </div>
+            </form> 
+        </div> 
+
+        <script src="../static/js/form.js"></script>
+
+    </body>
